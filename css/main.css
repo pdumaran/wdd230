@@ -1,5 +1,6 @@
 header {
     display: grid;
     grid-template-columns: auto auto;
-    background-color: blue;
+    background-color: rgb(56, 11, 11);
+    color: white;
 }

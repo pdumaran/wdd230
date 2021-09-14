@@ -16,3 +16,17 @@ h1 {
   max-width: 760px;
   margin: 0 auto;
 }
+
+main {
+  display: grid;
+  grid-template-areas:
+    "content profile";
+}
+
+img {
+  grid-area: profile;
+}
+
+h2 {
+  grid-area: content;
+}

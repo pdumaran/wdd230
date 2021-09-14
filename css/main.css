@@ -1,14 +1,18 @@
 header {
     display: grid;
     grid-template-columns: 1fr;
-    grid-row: 110px;
+    grid-row: 60px;
     background-color: rgb(56, 11, 11);
     color: white;
     border-radius: 10px 10px 10px 10px;
-    padding: 10px;
+    font-size: 20px;
+}
+
+h1 {
+  margin-left: 3em;
 }
 
 #content {
-    max-width: 960px;
-    margin: 0 auto;
-  }
+  max-width: 760px;
+  margin: 0 auto;
+}

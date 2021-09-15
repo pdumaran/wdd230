@@ -58,4 +58,8 @@
   footer a {
     color: white;
   }
+
+  footer p {
+    line-height: 1.5em;
+  }
   

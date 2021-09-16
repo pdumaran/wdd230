@@ -41,15 +41,11 @@ footer {
   border-radius: 10px 10px 10px 10px;
   font-size: 15px;
   text-align: center;
+  line-height: 1.5em;
 }
 
 footer a {
   color: white;
-}
-
-footer p {
-  line-height: 1.5em;
-  margin: 0;
 }
 
 #lu {

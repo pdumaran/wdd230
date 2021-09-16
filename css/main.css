@@ -24,9 +24,13 @@ h1 {
 
 /* ----------main--------- */
 
-h2 {
-  margin: 0;
+h2 {  
   border-bottom: 2px solid rgb(146, 155, 165);
+  margin-bottom: 0;
+}
+
+ul {
+  margin-top: .5em;
 }
 
 /* ----------footer--------- */

@@ -1,7 +1,12 @@
+body {
+  font-size: 12pt;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 header, main, footer {
   max-width: 760px;
   margin: 0 auto;
-  padding: 1em;
+  padding: 1em;  
 }
 
 header {  
@@ -18,7 +23,7 @@ img {
 
 h1 {
   margin: 0;
-  font-size: 50px;
+  font-size: 3em;
   text-align: center;
 }
 
@@ -39,7 +44,7 @@ footer {
   background-color: rgb(56, 11, 11);
   color: white;
   border-radius: 10px 10px 10px 10px;
-  font-size: 15px;
+  font-size: .93em;
   text-align: center;
   line-height: 1.5em;
 }

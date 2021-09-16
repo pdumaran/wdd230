@@ -11,11 +11,9 @@ header {
 }
 
 img {
-  grid-area: profile;
   box-shadow: 5px 5px 5px #999;
   background-color: #ffffff;
   float: right;
-  box-sizing: border-box;
 }
 
 h1 {

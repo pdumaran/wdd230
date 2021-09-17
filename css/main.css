@@ -16,7 +16,7 @@ header {
 }
 
 img {
-  box-shadow: 5px 5px 5px #999;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 39%);
   background-color: #ffffff;
   float: right;
 }

@@ -12,34 +12,35 @@ header, main, footer {
 header {  
   background-color: rgb(56, 11, 11);
   color: white;
-  border-radius: 10px 10px 10px 10px;
 }
 
-img {
-  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 39%);
-  background-color: #ffffff;
-  float: right;
+header img {
+  display: block;
+  margin: 0 auto;
 }
 
 h1 {
   margin: 0;
-  font-size: 3em;
+  font-size: 2em;
   text-align: center;
   font-family: 'Roboto', sans-serif;
+  padding-top: 16px;
 }
 
 /* ----------main--------- */
 
 h2 {  
   border-bottom: 2px solid rgb(146, 155, 165);
-  padding-bottom: .3em;
-  margin-bottom: 0;  
+  padding-bottom: 8px;
+  margin: 0;  
   font-family: 'Noto Sans JP', sans-serif;
+  font-size: 1.3em;
 }
 
 ul {
-  margin-top: .5em;
+  margin: 8px 0 0;
   font-family: 'Noto Sans JP', sans-serif;
+  line-height: 1.2em;
 }
 
 /* ----------footer--------- */
@@ -47,9 +48,8 @@ ul {
 footer {
   background-color: rgb(56, 11, 11);
   color: white;
-  border-radius: 10px 10px 10px 10px;
   text-align: center;
-  line-height: 1.5em;
+  line-height: 1.4em;
   font-family: 'Open Sans', sans-serif;
 }
 

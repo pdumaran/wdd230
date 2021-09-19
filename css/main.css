@@ -1,6 +1,6 @@
 body {
   font-size: 12pt;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif; 
 }
 
 header, main, footer {
@@ -25,17 +25,21 @@ h1 {
   margin: 0;
   font-size: 3em;
   text-align: center;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* ----------main--------- */
 
 h2 {  
   border-bottom: 2px solid rgb(146, 155, 165);
-  margin-bottom: 0;
+  padding-bottom: .3em;
+  margin-bottom: 0;  
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 ul {
   margin-top: .5em;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 /* ----------footer--------- */
@@ -46,6 +50,7 @@ footer {
   border-radius: 10px 10px 10px 10px;
   text-align: center;
   line-height: 1.5em;
+  font-family: 'Open Sans', sans-serif;
 }
 
 footer a {

@@ -11,4 +11,8 @@
         max-width: 75rem;
         margin: auto;
     }
+
+    main h2 {
+        text-align: left;
+    }
 }

@@ -28,33 +28,44 @@ header h1 {
 main {
     display: grid;
     grid-template-columns: 1fr;
+    grid-gap: 1rem;
+    padding: 1rem;
 }
 
-main h2 {
-    background-color: #EEE5D6;
+.principle {
+    border: 1px solid #e9e2db;
+    background-color: #e9e2db;
+}
+
+.principle h2 {    
     margin: 0;
     padding: .5rem 1rem;
     font-size: 1.2rem;
     text-align: center;
+    color: white;
+    background-color: #6B5B40;
 }
 
-main p {
-    padding: .5rem 1rem;
+.principle figure {
     margin: 0;
 }
 
-main figure {
-    width: 100%;
-    margin: 0;
+.principle figure img {
+    margin: 0 auto;
+    display: block;
+    padding: 1rem;
+    background-color: #e9e2db;
 }
 
-main figure img {
-    width: 100%;
-}
-
-main figcaption {
+.principle figcaption {
     text-align: center;
     font-size: .8rem;
+}
+
+.principle p {
+    margin: 0;
+    padding: 1rem;
+    
 }
 
 /*----------footer----------*/

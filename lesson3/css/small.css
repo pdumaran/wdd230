@@ -18,7 +18,6 @@ header h1 {
 }
 
 nav ul {
-    display: flex;
     list-style-type: none;
     margin: 0;
     text-align: center;
@@ -39,7 +38,7 @@ nav ul li a {
 /* ------------ main------------ */
 
 main img {
-    width: 500px;
+    width: 320px;
 }
 
 /* ------------ Color-scheme------------ */

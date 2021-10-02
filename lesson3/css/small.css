@@ -21,6 +21,11 @@ nav ul {
     background-color: #d3eaff;
 }
 
+nav ul li.active a {
+    background-color: #404973;
+    color: #fff;
+}
+
 nav ul li {
     flex: 1 1 100%;
 }

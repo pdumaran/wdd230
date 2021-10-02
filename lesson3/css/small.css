@@ -1,0 +1,101 @@
+* { -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box; box-sizing:
+    border-box; }
+
+header, nav, main, footer {
+    max-width: 760px;
+    margin: 16px auto;
+    font-family: 'Roboto', sans-serif;
+    color: #0a0a23;
+}
+
+header img {
+    width: 200px;
+}
+
+header h1 {
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+    padding: 0;
+    background-color: #d3eaff;
+}
+
+nav ul li {
+    flex: 1 1 100%;
+}
+
+nav ul li a {
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+/* ------------ main------------ */
+
+main img {
+    width: 500px;
+}
+
+/* ------------ Color-scheme------------ */
+
+.colors {
+    width: 100%;
+    min-width: 321px;
+    margin: auto;
+    text-align: center;
+  }
+
+.colors th {
+    background-color: #afb0b6;
+}
+
+.colors td{
+    width: 20%;
+    height: 3em;
+}
+
+.primary {
+    background-color: #404973;
+}
+
+.secondary {
+    background-color: #d3eaff;
+}
+
+.accent1 {
+    background-color: #8899F2;
+}
+
+.accent2 {
+    background-color: #636573;
+}
+
+.accent3 {
+    background-color: #6C7AC0;
+}
+
+/* ------------ Typography------------ */
+
+.typography-table {
+    width: 100%;
+}
+
+.typography-table th {
+    text-align: left;
+    background-color: #afb0b6;
+}
+
+.typography-table, th, td {
+    border: 1px solid #000000;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 3px;
+}

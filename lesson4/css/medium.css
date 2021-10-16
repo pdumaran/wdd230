@@ -58,4 +58,14 @@
         height: 50px;
         margin-top: 1rem;
     }
+
+    .contact-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 2fr;
+        grid-row: auto;
+    }
+
+    .phone-email-container {
+        margin-right: 1rem;
+    }
 }

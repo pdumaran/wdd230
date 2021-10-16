@@ -146,8 +146,9 @@ div.thechild ul {
     padding: 0;
 }
 
-img#camping {
+img.camping {
     float: right;
+    width: 100%;
     margin: 0 0 1rem 1rem;
 }
 

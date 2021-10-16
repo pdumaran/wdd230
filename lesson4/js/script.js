@@ -7,8 +7,6 @@ document.getElementById("myYear").textContent = myYear;
 document.getElementById("month").textContent = month;
 document.getElementById("day").textContent = day;
 document.getElementById("year").textContent = year;
-document.getElementById("lu").textContent = "Last Updated: " +
-    document.lastModified;
 
 function toggleMenu() {    
     document.getElementById("primaryNav").classList.toggle("hide");

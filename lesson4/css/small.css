@@ -98,6 +98,54 @@ main {
     padding: 0 1rem;
 }
 
+/* ------ */
+
+div#message {
+    background-color: #ffcece;
+    border: dashed 2px red;
+    padding: .5rem;
+    color: rgb(255, 0, 0);
+    margin-top: 1rem;
+    font-weight: bold;
+    display: inline-block;
+}
+
+div.showme {
+    display: block;
+}
+
+div.hideme {
+    display: none;
+}
+
+section.forecast {
+    display: none;
+}
+
+/* ------ */
+
+div.theparent {    
+    position: relative;
+}
+
+div.theparent img {
+    width: 100%;
+}
+
+div.thechild {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: rgb(0 114 12 / 48%);
+    padding: 0 1rem;
+    color: rgba(255,255,255,0.8);
+}
+
+div.thechild ul {
+    list-style-type: none;
+    padding: 0;
+}
+
 /* ---------- footer ---------- */
 
 footer {

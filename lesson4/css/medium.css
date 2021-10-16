@@ -34,4 +34,28 @@
         border-right: 1px solid rgba(0,0,0,0.3);
         padding: .6rem;
     }
+
+    /* ---------- main ---------- */
+
+    section.forecast {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+    }
+
+    section.forecast div {
+        text-align: center;
+        border: 1px solid #aaa;
+    }
+
+    section.forecast div h5 {
+        background-color: #eee;
+        margin: 0;
+        padding: 1rem 0;
+    }
+
+    section.forecast div img {
+        width: 53px;
+        height: 50px;
+        margin-top: 1rem;
+    }
 }

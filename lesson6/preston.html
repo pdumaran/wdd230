@@ -45,12 +45,14 @@
             pavilion.</div>
         <h1>Preston</h1>
         <div class="theparent">
-            <img src="images/nature.jpg" alt="Mountains and lake">
+            <img src="images/large-1200.jpg" alt="Mountains and lake" sizes="50vw"
+                srcset="images/small-400.jpg 400w, images/medium-800.jpg 800w, images/large-1100.jpg 1100w">
             <div class="thechild">
                 <p>Weather Summary</p>
                 <ul>
-                    <li>Temperature: 31&deg; 25&deg;</li>
-                    <li>Wind: 2 km/h</li>
+                    <li>Current Temperature: <span id="temp">32</span>&deg;</li>
+                    <li>Current Wind Speed: <span id="speed">60</span>mph</li>
+                    <li id="chill">message</li>
                 </ul>
             </div>
         </div>
@@ -83,37 +85,54 @@
                 <p>30&deg;</p>
             </div>
         </section>
-        <h2>Article Title</h2>
-        <figure class="camping-wrapper">
-            <img src="images/camping.jpg" alt="Camping">
-        </figure>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores excepturi blanditiis repellat amet tempore,
-            rerum nulla dolorem consectetur enim minus dicta, nostrum laboriosam neque. Sit quod aliquid doloribus rerum
-            nihil? Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores excepturi blanditiis repellat amet
-            tempore, rerum nulla dolorem consectetur enim minus dicta, nostrum laboriosam neque. Sit quod aliquid
-            doloribus rerum nihil? Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores excepturi blanditiis
-            repellat amet tempore, rerum nulla dolorem consectetur enim minus dicta, nostrum laboriosam neque. Sit quod
-            aliquid doloribus rerum nihil? Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores excepturi
-            blanditiis repellat amet tempore, rerum nulla dolorem consectetur enim minus dicta, nostrum laboriosam
-            neque. Sit quod aliquid doloribus rerum nihil? Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Maiores excepturi blanditiis repellat amet tempore, rerum nulla dolorem consectetur enim minus dicta,
-            nostrum laboriosam neque. Sit quod aliquid doloribus rerum nihil? Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Maiores excepturi blanditiis repellat amet tempore, rerum nulla dolorem consectetur enim
-            minus dicta, nostrum laboriosam neque. Sit quod aliquid doloribus rerum nihil?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores excepturi blanditiis repellat amet tempore,
-            rerum nulla dolorem consectetur enim minus dicta, nostrum laboriosam neque. Sit quod aliquid doloribus rerum
-            nihil? Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores excepturi blanditiis repellat amet
-            tempore, rerum nulla dolorem consectetur enim minus dicta, nostrum laboriosam neque. Sit quod aliquid
-            doloribus rerum nihil? Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores excepturi blanditiis
-            repellat amet tempore, rerum nulla dolorem consectetur enim minus dicta, nostrum laboriosam neque. Sit quod
-            aliquid doloribus rerum nihil? Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores excepturi
-            blanditiis repellat amet tempore, rerum nulla dolorem consectetur enim minus dicta, nostrum laboriosam
-            neque. Sit quod aliquid doloribus rerum nihil? Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Maiores excepturi blanditiis repellat amet tempore, rerum nulla dolorem consectetur enim minus dicta,
-            nostrum laboriosam neque. Sit quod aliquid doloribus rerum nihil? Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Maiores excepturi blanditiis repellat amet tempore, rerum nulla dolorem consectetur enim
-            minus dicta, nostrum laboriosam neque. Sit quod aliquid doloribus rerum nihil?</p>
-        <h2>Article Title</h2>
+        <section class="clearfix">
+            <h2>Article Title</h2>
+            <figure class="camping-wrapper">
+                <img src="images/camping.jpg" alt="Camping" sizes="50vw"
+                    srcset="images/camping-200.jpg 200w, images/camping-500.jpg 500w, images/camping-800.jpg 800w, images/camping-1100.jpg 1100w">
+            </figure>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores excepturi blanditiis repellat amet
+                tempore,
+                rerum nulla dolorem consectetur enim minus dicta, nostrum laboriosam neque. Sit quod aliquid doloribus
+                rerum
+                nihil? Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores excepturi blanditiis repellat
+                amet
+                tempore, rerum nulla dolorem consectetur enim minus dicta, nostrum laboriosam neque. Sit quod aliquid
+                doloribus rerum nihil? Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores excepturi
+                blanditiis
+                repellat amet tempore, rerum nulla dolorem consectetur enim minus dicta, nostrum laboriosam neque. Sit
+                quod
+                aliquid doloribus rerum nihil? Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+                excepturi
+                blanditiis repellat amet tempore, rerum nulla dolorem consectetur enim minus dicta, nostrum laboriosam
+                neque. Sit quod aliquid doloribus rerum nihil? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Maiores excepturi blanditiis repellat amet tempore, rerum nulla dolorem consectetur enim minus dicta,
+                nostrum laboriosam neque. Sit quod aliquid doloribus rerum nihil? Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Maiores excepturi blanditiis repellat amet tempore, rerum nulla dolorem consectetur
+                enim
+                minus dicta, nostrum laboriosam neque. Sit quod aliquid doloribus rerum nihil?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores excepturi blanditiis repellat amet
+                tempore,
+                rerum nulla dolorem consectetur enim minus dicta, nostrum laboriosam neque. Sit quod aliquid doloribus
+                rerum
+                nihil? Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores excepturi blanditiis repellat
+                amet
+                tempore, rerum nulla dolorem consectetur enim minus dicta, nostrum laboriosam neque. Sit quod aliquid
+                doloribus rerum nihil? Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores excepturi
+                blanditiis
+                repellat amet tempore, rerum nulla dolorem consectetur enim minus dicta, nostrum laboriosam neque. Sit
+                quod
+                aliquid doloribus rerum nihil? Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+                excepturi
+                blanditiis repellat amet tempore, rerum nulla dolorem consectetur enim minus dicta, nostrum laboriosam
+                neque. Sit quod aliquid doloribus rerum nihil? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Maiores excepturi blanditiis repellat amet tempore, rerum nulla dolorem consectetur enim minus dicta,
+                nostrum laboriosam neque. Sit quod aliquid doloribus rerum nihil? Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Maiores excepturi blanditiis repellat amet tempore, rerum nulla dolorem consectetur
+                enim
+                minus dicta, nostrum laboriosam neque. Sit quod aliquid doloribus rerum nihil?</p>
+        </section>
+        <h2>Contact Info</h2>
         <section class="contact-container">
             <div>
                 <h3>Address</h3>

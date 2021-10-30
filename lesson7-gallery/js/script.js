@@ -62,12 +62,14 @@ function visitCount() {
     var numberOfvisits = document.getElementById('numberOfvisits');
     var visits = Number(localStorage.getItem('visitCount'));
     var current = Boolean(sessionStorage.getItem('session'));
-    if (!current) {
-    visits++;
-    }
-    numberOfvisits.innerHTML = `You have visited this page <strong>${visits}</strong> times.`;
-    localStorage.setItem('visitCount', visits);
-    sessionStorage.setItem('session', false);
     
+    if (!current) {
+        visits++;
     }
-    visitCount()
+    
+    numberOfvisits.innerHTML = `You have visited this page ${visits} time(s).`;
+    localStorage.setItem('visitCount', visits);
+    sessionStorage.setItem('session', false);    
+}
+
+visitCount()

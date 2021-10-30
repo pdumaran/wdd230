@@ -49,18 +49,25 @@ if (tempNumber <= 50 && speedNumber > 3){
     document.getElementById("chill").textContent = "No Wind Chill Today";
 }
 
-/* Progressive/Lazy Loading */
+/* User Last Visit */
 
-var date = window.localStorage.getItem("date");
-// Initialize the date object as a date object again here
-date = new Date(date);
-date.setDate(date.getDate() + 7);
+// Testing Abigail Taylor's code
+localStorage.setItem("lastDate", day);
+let lastDate = localStorage.getItem("lastDate");
+let lastVisit = day - lastDate;
+document.getElementById("last-visit").textContent = `Last visited ${lastVisit} days ago`;
 
-var a = new Date();
-var b = new Date();
-console.log(b - a); //this works
-localStorage.a = a;
-localStorage.b = b;
-a = Date.parse(localStorage.a); // parse to date object
-b = Date.parse(localStorage.b);
-console.log(b - a); // now, this will work
+// Testing Ellie's code
+function visitCount() {
+    var numberOfvisits = document.getElementById('numberOfvisits');
+    var visits = Number(localStorage.getItem('visitCount'));
+    var current = Boolean(sessionStorage.getItem('session'));
+    if (!current) {
+    visits++;
+    }
+    numberOfvisits.innerHTML = `You have visited this page <strong>${visits}</strong> times.`;
+    localStorage.setItem('visitCount', visits);
+    sessionStorage.setItem('session', false);
+    
+    }
+    visitCount()

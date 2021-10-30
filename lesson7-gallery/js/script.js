@@ -66,8 +66,8 @@ function visitCount() {
     if (!current) {
         visits++;
     }
-    
-    numberOfvisits.innerHTML = `You have visited this page ${visits} time(s).`;
+
+    numberOfvisits.innerHTML = `You have visited this page ${visits} time(s)`;
     localStorage.setItem('visitCount', visits);
     sessionStorage.setItem('session', false);    
 }

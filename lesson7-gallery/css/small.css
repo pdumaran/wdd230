@@ -108,6 +108,7 @@ main {
 
 figure.pic-wrapper {    
     margin: 0;
+    box-shadow: 0 0 .7px;
 }
 
 figure.pic-wrapper img {

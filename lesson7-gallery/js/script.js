@@ -51,3 +51,16 @@ if (tempNumber <= 50 && speedNumber > 3){
 
 /* Progressive/Lazy Loading */
 
+var date = window.localStorage.getItem("date");
+// Initialize the date object as a date object again here
+date = new Date(date);
+date.setDate(date.getDate() + 7);
+
+var a = new Date();
+var b = new Date();
+console.log(b - a); //this works
+localStorage.a = a;
+localStorage.b = b;
+a = Date.parse(localStorage.a); // parse to date object
+b = Date.parse(localStorage.b);
+console.log(b - a); // now, this will work

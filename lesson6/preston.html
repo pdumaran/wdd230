@@ -45,8 +45,14 @@
             pavilion.</div>
         <h1>Preston</h1>
         <div class="theparent">
-            <img src="images/default-1200.jpg" alt="Mountains and lake" sizes="50vw"
-                srcset="images/small-400.jpg 400w, images/medium-800.jpg 800w, images/large-1100.jpg 1100w">
+            <!-- <img src="images/default-1200.jpg" alt="Mountains and lake" sizes="50vw"
+                srcset="images/small-400.jpg 400w, images/medium-800.jpg 800w, images/large-1100.jpg 1100w"> -->
+            <picture>
+                <source media="(max-width: 400px)" srcset="images/small-400.jpg">
+                <source media="(max-width: 800px)" srcset="images/medium-800.jpg">
+                <source media="(max-width: 1200px)" srcset="images/large-1200.jpg">
+                <img src="images/large-1200.jpg" alt="Mountain">
+            </picture>            
             <div class="thechild">
                 <p>Weather Summary</p>
                 <ul>
@@ -88,8 +94,15 @@
         <section class="clearfix">
             <h2>Article Title</h2>
             <figure class="camping-wrapper">
-                <img src="images/camping.jpg" alt="Camping" sizes="50vw"
-                    srcset="images/camping-200.jpg 200w, images/camping-500.jpg 500w, images/camping-800.jpg 800w, images/camping-1100.jpg 1100w">
+                <!-- <img src="images/camping.jpg" alt="Camping" sizes="50vw"
+                    srcset="images/camping-200.jpg 200w, images/camping-500.jpg 500w, images/camping-800.jpg 800w, images/camping-1100.jpg 1100w"> -->
+                <picture>
+                    <source media="(max-width: 200px)" srcset="images/camping-200.jpg">
+                    <source media="(max-width: 500px)" srcset="images/camping-500.jpg">
+                    <source media="(max-width: 800px)" srcset="images/camping-800.jpg">
+                    <source media="(max-width: 1100px)" srcset="images/camping-1100.jpg">
+                    <img src="images/camping-1100.jpg" alt="Woman camping">
+                </picture>
             </figure>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores excepturi blanditiis repellat amet
                 tempore,

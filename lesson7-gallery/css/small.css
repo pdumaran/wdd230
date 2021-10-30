@@ -95,20 +95,41 @@ nav ul.hide {
 /* ---------- main ---------- */
 
 main {
-    padding: 0 1rem;
+    padding: 0 1rem 1rem;
 }
 
 /* ---------- main-gallery ---------- */
 
-figure.pic-wrapper {
-    width: 25%;
-    margin: 0 1rem 0 0;
-    float: left;
+.grid-gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+}
+
+figure.pic-wrapper {    
+    margin: 0;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 39%);
 }
 
 figure.pic-wrapper img {
     width: 100%;
     display: block;
+}
+
+/* blur placeholder */
+img[data-src] {
+    filter: blur(.5rem);
+}
+  
+img {
+filter: blur(0rem);
+transition: filter 0.5s;
+}
+/* end-blur placeholder */
+
+figcaption {
+    padding: .7rem;
+    background-color: #ffffff;
 }
 
 /* ---------- main-gallery-end ---------- */

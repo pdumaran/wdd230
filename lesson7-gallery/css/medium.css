@@ -45,6 +45,10 @@
         grid-gap: 1rem;
     }
 
+    figure.pic-wrapper {
+        box-shadow: 0 0 .7px;
+    }
+
     /* ---------- main-gallery-end ---------- */
 
     div.theparent {    

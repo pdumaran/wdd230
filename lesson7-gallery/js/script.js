@@ -57,7 +57,7 @@ let lastDate = localStorage.getItem("lastDate");
 let lastVisit = day - lastDate;
 document.getElementById("last-visit").textContent = `Last visited ${lastVisit} days ago`;
 
-// Testing Ellie's code
+// Testing Elie's code
 function visitCount() {
     var numberOfvisits = document.getElementById('numberOfvisits');
     var visits = Number(localStorage.getItem('visitCount'));

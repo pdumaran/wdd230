@@ -43,13 +43,13 @@ html {
   tr:nth-child(2) th {
     background-color: #628ca6;
     color: white;
-    font: bold;    
+    font-weight: bold; 
   }
 
   tbody tr:nth-child(4) td:nth-child(3) {
     background-color: #628ca6;
     color: white;
-    font: bold;  
+    font-weight: bold; 
   }
 
   tfoot tr:nth-child(1) td {

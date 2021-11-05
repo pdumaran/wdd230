@@ -6,7 +6,7 @@ html {
     border-collapse: collapse;
     border: 2px solid rgb(200,200,200);
     letter-spacing: 1px;
-    font-size: 0.8rem;
+    font-size: 1rem;
     margin: 0 auto;
   }
   
@@ -43,13 +43,11 @@ html {
   tr:nth-child(2) th {
     background-color: #628ca6;
     color: white;
-    font-size: 1.3em;
   }
 
   tbody tr:nth-child(4) td:nth-child(3) {
     background-color: #628ca6;
     color: white;
-    font-weight: bold; 
   }
 
   tfoot tr:nth-child(1) td {

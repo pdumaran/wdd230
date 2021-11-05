@@ -43,7 +43,7 @@ html {
   tr:nth-child(2) th {
     background-color: #628ca6;
     color: white;
-    font-weight: bold; 
+    font-size: 1.2em;
   }
 
   tbody tr:nth-child(4) td:nth-child(3) {

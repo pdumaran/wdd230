@@ -17,6 +17,9 @@ header {
 header img {
   display: block;
   margin: 0 auto;
+  border-radius: 100%;
+  width: 175px;
+  height: 177px;
 }
 
 header h1 {

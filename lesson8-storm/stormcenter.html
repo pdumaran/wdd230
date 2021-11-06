@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phil Weather</title>
+    <meta name="description"
+        content="Phil Weather provides local & long-range weather forecasts, weather reports, maps & tropical weather conditions for locations worldwide.">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <script defer src="js/script.js" rel="stylesheet"></script>
+</head>
+
+<body>
+    <div id="headerWrapper">
+        <header>
+            <img src="images/sun.png" alt="Preston Weather logo">
+            <section class="headings">
+                <h1>Phil Weather</h1>
+                <h2>When Thunder Roars, Go Indoors!</h2>
+            </section>
+        </header>
+    </div>
+    <div id="navWrapper">
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="primaryNav" class="hide">
+                <li><a href="#">Home</a></li>
+                <li><a href="preston.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li class="active"><a href="stormcenter.html">Storm Center</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </div>
+    <main>
+        <h1>Course Proposal Application</h1>
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <legend>Applicant Information</legend>
+                <label class="top">First Name* <input type="text" name="fname" required></label>
+                <label class="top">Last Name* <input type="text" name="lname" required></label>
+                <label class="top">Phone <input type="tel" name="phone" placeholder="1235551234"></label>
+                <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                <label class="top">Website <input type="url" name="url" placeholder="http://"></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Course Information</legend>
+                <div>Audience</div>
+                <label class="sbs"><input type="radio" name="audience" value="beginner"> Beginner</label>
+                <label class="sbs"><input type="radio" name="audience" value="intermediate"> Intermediate</label>
+                <label class="sbs"><input type="radio" name="audience" value="advanced"> Advanced</label>
+
+                <div>Software Needed</div>
+                <label class="sbs"><input type="checkbox" name="editing" value="yer"> Photo Editing</label>
+                <label class="sbs"><input type="checkbox" name="code" value="yer"> Coding</label>
+                <label class="sbs"><input type="checkbox" name="process" value="yer"> Preprocessor</label>
+                <label class="sbs"><input type="checkbox" name="client" value="yer"> FTP Client</label>
+            </fieldset>
+        
+            <fieldset>
+                <legend>Funding</legend>
+                <label class="top">Anticipated Completion Date <input type="date" name="completeDate"></label>
+                <label class="top">Course Subject
+                    <select name="subject">
+                        <option value="">Please Select &#9662;</option>
+                        <option value="software">Software Development</option>
+                        <option value="creative">Creative Professional</option>
+                        <option value="info">Information Technology</option>
+                        <option value="data">Data Professional</option>
+                        <option value="construction">Construction</option>
+                        <option value="manufacturing">Manufacturing</option>
+                        <option value="business">Business Professional</option>
+                        <option value="security">Cyber Security</option>
+                    </select>
+                </label>
+                <label class="top">How Many Authors <input type="number" name="authors"></label>
+            </fieldset>
+            <input type="submit" value="Propose My Course" class="submitBtn">
+        </form>
+    </main>
+    <div id="footerWrapper">
+        <footer>
+            &copy; <span id="myYear"></span> Pierre Phil Bangay | <span id="month"></span>-<span id="day"></span>-<span
+                id="year"></span>
+        </footer>
+    </div>
+</body>
+
+</html>

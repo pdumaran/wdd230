@@ -45,8 +45,8 @@
         <form method="get" action="thanks.html">
             <fieldset>
                 <legend>User Information</legend>
-                <label class="top">First Name* <input type="text" name="fname" required></label>
-                <label class="top">Last Name* <input type="text" name="lname" required></label>                
+                <label class="top">First Name* <input type="text" name="fname" pattern="[A-z0-9À-ž\s]{5,}" required></label>
+                <label class="top">Last Name* <input type="text" name="lname" pattern="[A-z0-9À-ž\s]{5,}" required></label>                
                 <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
                 <label class="top">Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
                 <label class="top">Zip Code* <input type="number" name="zip" required></label>
@@ -54,17 +54,23 @@
 
             <fieldset>
                 <legend>Storm Level & Type</legend>
+                <label class="top" for="storm">Storm Type
+                    <input list="storms" name="storm" id="storm">
+                    
+                    <datalist id="storms">
+                        <option value="">Please Select &#9662;</option>                  
+                        <option value="flood">
+                        <option value="hail">
+                        <option value="hurricane">
+                        <option value="thunderstorm">
+                        <option value="tornado">
+                    </datalist>
+                </label>    
+
                 <div>Danger Level</div>
                 <label class="sbs"><input type="radio" name="audience" value="yes"> Yes</label>
                 <label class="sbs"><input type="radio" name="audience" value="maybe"> Maybe</label>
-                <label class="sbs"><input type="radio" name="audience" value="no"> No</label>
-
-                <div>Storm Type</div>
-                <label class="sbs"><input type="checkbox" name="flood" value="yer"> Flash Flood</label>
-                <label class="sbs"><input type="checkbox" name="hail" value="yer"> Hail</label>
-                <label class="sbs"><input type="checkbox" name="hurricane" value="yer"> Hurricane</label>
-                <label class="sbs"><input type="checkbox" name="thunderstorm" value="yer"> Thunderstorm</label>
-                <label class="sbs"><input type="checkbox" name="tornado" value="yer"> Tornado</label>
+                <label class="sbs"><input type="radio" name="audience" value="no"> No</label>                            
             </fieldset>
         
             <fieldset>

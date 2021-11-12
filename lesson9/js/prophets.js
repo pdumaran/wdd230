@@ -14,7 +14,10 @@ fetch(requestURL)
       let birthdate = document.createElement('p');
       let birthplace = document.createElement('p');
       let image = document.createElement('img');
+      
+      // Populate the elements with the from the JSON file
       h2.innerHTML = `${prophet.name} <span class="highlight">${prophet.lastname}</span>`;
+      birthdate.innerHTML = `Date of Birth: ${prophet.birthdate}`;
       
       // Build the prophet card
       card.appendChild(h2);
@@ -22,7 +25,7 @@ fetch(requestURL)
       card.appendChild(birthplace);
       card.appendChild(image);
 
-      // now output to the html document
+      // Now output to the html document
       document.querySelector('div.cards').appendChild(card);
     });
   });

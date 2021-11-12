@@ -5,4 +5,10 @@ header h1 {
 div.cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+}
+
+div.cards section {
+    text-align: center;
+    background-color: antiquewhite;
 }

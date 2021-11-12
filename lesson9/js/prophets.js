@@ -18,6 +18,7 @@ fetch(requestURL)
       // Populate the elements with the from the JSON file
       h2.innerHTML = `${prophet.name} <span class="highlight">${prophet.lastname}</span>`;
       birthdate.innerHTML = `Date of Birth: ${prophet.birthdate}`;
+      birthplace.innerHTML = `Place of Birth: ${prophet.birthplace}`;
       
       // Build the prophet card
       card.appendChild(h2);

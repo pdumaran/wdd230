@@ -19,6 +19,7 @@ fetch(requestURL)
       h2.innerHTML = `${prophet.name} <span class="highlight">${prophet.lastname}</span>`;
       birthdate.innerHTML = `Date of Birth: ${prophet.birthdate}`;
       birthplace.innerHTML = `Place of Birth: ${prophet.birthplace}`;
+      image.setAttribute('src', prophet.imageurl);
       
       // Build the prophet card
       card.appendChild(h2);

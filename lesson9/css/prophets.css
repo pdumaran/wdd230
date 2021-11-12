@@ -2,7 +2,7 @@ header h1 {
     text-align: center;
 }
 
-div.cards {
+div.cards {    
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1rem;
@@ -11,4 +11,15 @@ div.cards {
 div.cards section {
     text-align: center;
     background-color: antiquewhite;
+    padding: 1rem;
+}
+
+div.cards section img {
+    display: block;
+    margin: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
 }

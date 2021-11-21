@@ -1,0 +1,352 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #0a0a23;
+}
+
+div#headerWrapper {
+    background-color: #fff2f2;
+}
+
+header {
+    background-color: #fff2f2;
+    display: flex;
+    align-content: center;
+    padding: 1rem;    
+}
+
+header img {
+    width: 60px;
+    height: auto;
+}
+
+.headings h1, .headings h2 {
+    margin: 0;
+    padding-left: 1rem;
+    color: #5f0000;
+}
+
+.headings h2 {
+    font-size: .7rem;
+}
+
+/* ---------- nav ---------- */
+
+div#navWrapper,
+div#footerWrapper,
+nav, footer {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff3232+0,aa0000+100 */
+    background: #ff3232; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ff3232 0%, #aa0000 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #ff3232 0%,#aa0000 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #ff3232 0%,#aa0000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3232', endColorstr='#aa0000',GradientType=0 ); /* IE6-9 */
+}
+
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #fff;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: rgba(255,255,255,0.8);
+    border-top: 1px solid rgba(0,0,0,0.3);
+}
+
+nav ul li.active a {
+    background-color: rgba(0,0,0,0.2);
+    color: #fff;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0,0,0,0.4);
+}
+
+nav ul.hide {
+    display: none;
+}
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* ---------- main ---------- */
+
+main {
+    padding: 0 1rem 1rem;
+}
+
+.wire-wrapper {
+    max-width: 300px;
+}
+
+.wire {
+    width: 100%;
+}
+
+/* ---------- main-towns-article ---------- */
+
+#display_here {
+    display: grid;
+}
+
+#display_here div {
+    background-color: rgb(226, 226, 226);
+}
+
+#display_here section {
+    text-align: center;
+}
+
+#display_here figure {
+    margin: 0;
+}
+
+#display_here figure img {
+    display: block;
+}
+
+/* ---------- end-main-towns-article ---------- */
+
+/* ---------- main-gallery ---------- */
+
+.grid-gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+}
+
+figure.pic-wrapper {    
+    margin: 0;    
+}
+
+figure.pic-wrapper img {
+    width: 100%;
+    display: block;
+}
+
+/* blur placeholder */
+img[data-src] {
+    filter: blur(.5rem);
+}
+  
+img {
+filter: blur(0rem);
+transition: filter 0.5s;
+}
+/* end-blur placeholder */
+
+figcaption {
+    padding: .7rem;
+    background-color: #ffffff;
+}
+
+/* ---------- main-gallery-end ---------- */
+
+/* --- JS Message --- */
+
+div#message {
+    background-color: #ffcece;
+    border: dashed 2px red;
+    padding: .5rem;
+    color: rgb(255, 0, 0);
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+div.showme {
+    display: block;
+}
+
+div.hideme {
+    display: none;
+}
+
+/* ------ */
+
+div.theparent {
+    margin-bottom: 1rem;
+}
+
+div.theparent img {
+    width: 100%;
+}
+
+div.thechild {
+    background-color: rgb(0 104 11);
+    padding: 0 1rem 0;
+    color: rgba(255,255,255,0.8);
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+div.thechild ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/*-------------------*/
+
+section#weatherforecast {
+    display: none;
+}
+
+section#weatherforecast div {
+    text-align: center;
+    border: 1px solid #aaa;
+}
+
+section#weatherforecast div h5 {
+    background-color: #eee;
+    margin: 0;
+    padding: 1rem 0;
+}
+
+section#weatherforecast div img {
+    width: 0 auto;
+    margin-top: 1rem;
+}
+
+/*-------------------*/
+
+figure.camping-wrapper {
+    width: 50%;
+    margin: 0 0 0 1rem;
+    float: right;
+}
+
+figure.camping-wrapper img {
+    width: 100%;
+    display: block;
+}
+
+figure.videographer-wrapper {
+    width: 30%;
+    margin: 0 0 0 1rem;
+    float: right;
+}
+
+figure.videographer-wrapper img {
+    width: 100%;
+    display: block;
+}
+
+/* img.camping {
+    float: right;
+    width: 288px;
+    margin: 0 0 1rem 1rem;
+} */
+
+.map-wrapper {
+    max-width: 700px;
+}
+
+.google-map {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+/* ---------- footer ---------- */
+
+footer {
+    text-align: center;
+    padding: .8rem;
+    margin: 0;
+    color: #fff;
+}
+
+footer a {
+    color: rgb(134, 134, 134);
+}
+
+/* ---------- Form CSS ------------- */
+/*------------- FORM -------------*/
+
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid #445ba9;
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+
+form legend {
+    color: #445ba9;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label.flexly {
+    display: block;
+    padding-top: 1rem;
+    color: #9c2c13;
+    font-size: .8rem;
+}
+
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color: #9c2c13;
+    font-size: .8rem;
+}
+
+form label.top input, form label.top select, form label.top textarea {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: 1px solid #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+    color: #555;
+}
+
+form input.submitBtn {
+    border: none;
+    background-color: #9c2c13;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;    
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+
+form label.top input:required {
+    border-left: 6px solid red;
+}
+
+form label.top input:required:valid {
+    border-left: 6px solid green;
+}
+
+/* ---------- Form CSS end ------------- */

@@ -128,8 +128,6 @@ main {
     display: block;
 }
 
-/* ---------- end-main-towns-article ---------- */
-
 /* ---------- main-gallery ---------- */
 
 .grid-gallery {
@@ -184,7 +182,7 @@ div.hideme {
     display: none;
 }
 
-/* ------ */
+/* --------------- */
 
 div.theparent {
     margin-bottom: 1rem;
@@ -210,7 +208,7 @@ div.thechild ul {
 /*-------------------*/
 
 section#weatherforecast {
-    display: none;
+    display: grid;
 }
 
 section#weatherforecast div {
@@ -253,12 +251,6 @@ figure.videographer-wrapper img {
     display: block;
 }
 
-/* img.camping {
-    float: right;
-    width: 288px;
-    margin: 0 0 1rem 1rem;
-} */
-
 .map-wrapper {
     max-width: 700px;
 }
@@ -281,7 +273,6 @@ footer a {
     color: rgb(134, 134, 134);
 }
 
-/* ---------- Form CSS ------------- */
 /*------------- FORM -------------*/
 
 form fieldset {
@@ -348,5 +339,3 @@ form label.top input:required {
 form label.top input:required:valid {
     border-left: 6px solid green;
 }
-
-/* ---------- Form CSS end ------------- */

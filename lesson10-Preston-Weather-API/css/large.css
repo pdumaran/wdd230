@@ -10,8 +10,6 @@
         box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 39%);
     }
 
-    /* ---------- main-gallery-end ---------- */
-
     /* ---------- main-towns-article ---------- */
 
     #display_here {
@@ -52,12 +50,9 @@
     }
 
     /* ---------- end-main-towns-article ---------- */
-    /*-------------------*/
 
     section#weatherforecast {
         display: grid;
         grid-template-columns: repeat(5, 1fr);
     }
-
-    /*-------------------*/
 }

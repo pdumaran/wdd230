@@ -50,7 +50,7 @@ fetch(apiURL)
         theIcon.src = iconPath;
 
         let theTemp = document.createElement("p");
-        theTemp.textContent = weatherInfo.list[i].main.temp.toFixed(0) + "\xB0";
+        theTemp.textContent = weatherInfo.list[i].main.temp.toFixed(0) + "\xB0 F";
 
         let theDay = document.createElement("div");
         theDay.appendChild(theDayName);

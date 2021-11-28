@@ -39,8 +39,8 @@ fetch (requestURL)
           text.appendChild(p3);
          
           // Adding to section element
-          event.appendChild(text);
+          card.appendChild(text);
 
           // Apply to .events class 
-          document.querySelector('div.events').appendChild(event);
+          document.querySelector('div.events').appendChild(card);
           }}});

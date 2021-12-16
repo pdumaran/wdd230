@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bacolod Chamber of Commerce</title>
+    <meta name="description"
+        content="Phil Weather provides local & long-range weather forecasts, weather reports, maps & tropical weather conditions for locations worldwide.">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <script defer src="js/lastvisit.js" rel="stylesheet"></script>
+    <script defer src="js/lazyloading.js" rel="stylesheet"></script>
+</head>
+
+<body>
+    <div id="headerWrapper">
+        <header>
+            <img src="images/logo.png" alt="bacolod logo">
+            <section class="headings">
+                <h1>Bacolod</h1>
+                <h2>Chamber of Commerce</h2>
+            </section>
+        </header>
+    </div>
+    <div id="navWrapper">
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="primaryNav" class="hide">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="preston.html">Preston</a></li>
+                <li><a href="soda.html">Soda Springs</a></li>
+                <li><a href="fish.html">Fish Haven</a></li>
+                <li><a href="stormcenter.html">Storm Center</a></li>
+                <li class="active"><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </div>
+    <main>
+        <h1>Weather Gallery</h1>
+        <div class="grid-gallery">
+            <div class="clearfix">
+                <figure class="pic-wrapper">
+                    <img src="images/pic-1.jpg" data-src="images/pic1.jpg" alt="predict weather">
+                    <figcaption>A perfect forecast that is accurate to the hour.</figcaption>
+                </figure>
+            </div>
+
+            <div class="clearfix">
+                <figure class="pic-wrapper">
+                    <img src="images/pic-2.jpg" data-src="images/pic2.jpg" alt="Meteorologists">
+                    <figcaption>Meteorologists are able to predict the changes in weather patterns.</figcaption>
+                </figure>
+            </div>
+
+            <div class="clearfix">
+                <figure class="pic-wrapper">
+                    <img src="images/pic-3.jpg" data-src="images/pic3.jpg" alt="climate disaster">
+                    <figcaption>An extreme weather event or climate disaster.</figcaption>
+                </figure>
+            </div>
+
+            <div class="clearfix">
+                <figure class="pic-wrapper">
+                    <img src="images/pic-4.jpg" data-src="images/pic4.jpg" alt="tornado shot from space">
+                    <figcaption>The storm and the ship that vanished.</figcaption>
+                </figure>
+            </div>
+
+            <div class="clearfix">
+                <figure class="pic-wrapper">
+                    <img src="images/pic-5.jpg" data-src="images/pic5.jpg" alt="sandstorm">
+                    <figcaption>A towering wave of orange dust.</figcaption>
+                </figure>
+            </div>
+
+            <div class="clearfix">
+                <figure class="pic-wrapper">
+                    <img src="images/pic-6.jpg" data-src="images/pic6.jpg" alt="Monitoring the plasma in the ionosphere">
+                    <figcaption>Monitoring the plasma in the ionosphere.</figcaption>
+                </figure>
+            </div>
+
+            <div class="clearfix">
+                <figure class="pic-wrapper">
+                    <img src="images/pic-7.jpg" data-src="images/pic7.jpg" alt="hottest temperature">
+                    <figcaption>The hottest temperature in European history.</figcaption>
+                </figure>
+            </div>
+
+            <div class="clearfix">
+                <figure class="pic-wrapper">
+                    <img src="images/pic-8.jpg" data-src="images/pic8.jpg" alt="Beijing sandstorm">
+                    <figcaption>Beijing has been enveloped in one of its most severe sandstorms.</figcaption>
+                </figure>
+            </div>
+
+            <div class="clearfix">
+                <figure class="pic-wrapper">
+                    <img class="pic9" src="images/pic-9.jpg" data-src="images/pic9.jpg" alt="tornado shot from space">
+                    <figcaption>The stunning white peaks of two volcanoes.</figcaption>
+                </figure>
+            </div>
+        </div>        
+    </main>
+    <div id="footerWrapper">
+        <footer>
+            &copy; <span id="myYear"></span> Pierre Phil Bangay | <span id="month"></span>-<span id="day"></span>-<span
+                id="year"></span> | <span id="last-visit"></span> | <span id="numberOfvisits"></span>
+        </footer>
+    </div>
+</body>
+
+</html>

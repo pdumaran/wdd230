@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bacolod Chamber of Commerce</title>
+    <meta name="description"
+        content="Bacolod Chamber of Commerce's purpose is to promote the development of the business interests of individuals and organizations in Bacolod City.">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <script defer src="js/script.js" rel="stylesheet"></script>
+    <script defer src="js/weather.js" rel="stylesheet"></script>
+</head>
+
+<body>
+    <div id="headerWrapper">
+        <header>
+            <img src="images/logo.png" alt="bacolod logo">
+            <section class="headings">
+                <h1>Bacolod</h1>
+                <h2>Chamber of Commerce</h2>
+            </section>
+        </header>
+    </div>
+    <div id="navWrapper">
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="primaryNav" class="hide">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="join.html">How To Join</a></li>
+                <li><a href="mission.html">Mission</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </div>
+    <main>
+        <h1 class="welcomeBacolod">Welcome to Bacolod Chamber of Commerce</h1>
+        <section class="clearfix">
+            <figure class="businessmen_wrapper">
+                <picture>
+                    <source media="(max-width: 400px)" srcset="images/b400.jpg">
+                    <source media="(max-width: 800px)" srcset="images/b800.jpg">
+                    <source media="(max-width: 2000px)" srcset="images/b1024.jpg">
+                    <img src="images/b1.jpg" alt="businessmen">
+                </picture>
+            </figure>
+            <p>Bacolod Chamber of Commerce's purpose is to promote the development of the business interests of
+                individuals and organizations in Bacolod City. It supports its members' interest with relevant city,
+                provincial and national administrations and organizations. It also creates productive networking and
+                business opportunities for all its members, local and abroad. It addresses a wide range of issues that
+                help businesses succeed from programs to publications, trade and business delegations, to advocacy
+                work.</p>
+        </section>
+        <h2>Bacolod Chamber of Commerce is Influential</h2>
+        <p>The Chamber is an effective advocate for members' business interest. Bacolod Chamber of Commerce leaders
+            regularly meet with senior city, provincial and national government officials to discuss issues pertinent to
+            members and their businesses. Additionally, officials and media often come to Bacolod Chamber of Commerce
+            for advice and counsel on a variety of subjects. IN short, Bacolod Chamber of Commerce influences policy.
+        </p>
+        <section class="promo_grid">
+            <figure class="promo_wrapper">
+                <picture>
+                    <source media="(max-width: 400px)" srcset="images/p1400.jpg">
+                    <source media="(max-width: 800px)" srcset="images/p1450.jpg">
+                    <source media="(max-width: 2000px)" srcset="images/p1514.jpg">
+                    <img src="" alt="">
+                </picture>
+                <p>On September 01 to 15, products of various Cities and Municipalities of Negros Occidental are
+                    on display at the Robinsons Place-Bacolod.</p>
+            </figure>
+            <figure class="promo_wrapper">
+                <picture>
+                    <source media="(max-width: 400px)" srcset="images/p2400.jpg">
+                    <source media="(max-width: 800px)" srcset="images/p2450.jpg">
+                    <source media="(max-width: 2000px)" srcset="images/p2514.jpg">
+                    <img src="" alt="">
+                </picture>
+                <p>Activity Center, Ayala Malls Capitol Central June 1 to 15</p>
+            </figure>
+        </section>
+        <h2>Five Day Forecast</h2>
+        <section id="weatherforecast"></section>
+    </main>
+    <div id="footerWrapper">
+        <footer>
+            &copy; <span id="myYear"></span> Pierre Phil Bangay
+        </footer>
+    </div>
+</body>
+
+</html>

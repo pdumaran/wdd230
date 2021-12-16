@@ -13,7 +13,7 @@ function toggleMenu() {
 }
 
 /* JS-Message Based on Week Day */
-/* Watch Paul Cheney tutorial at https://video.byui.edu/media/JS-Message+Based+on+Week+Day/0_8im2g4rm */
+/* Watch Dr. Paul Cheney tutorial at https://video.byui.edu/media/JS-Message+Based+on+Week+Day/0_8im2g4rm */
 
 const today = new Date();
 console.log(today);

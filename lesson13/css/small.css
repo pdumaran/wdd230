@@ -166,7 +166,7 @@ div.hideme {
 
 /* --------------- */
 
-figure.businessmen_wrapper {
+figure.businessmen_wrapper, figure.promo_wrapper {
     width: 100%;
     margin: 0 auto;    
 }
@@ -177,11 +177,6 @@ figure.businessmen_wrapper img {
 }
 
 /*-------------------*/
-
-figure.promo_wrapper {
-    width: 100%;
-    margin: 0 auto;    
-}
 
 figure.promo_wrapper img {
     width: 100%;

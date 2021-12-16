@@ -49,8 +49,6 @@
         grid-gap: 1rem;
     }
 
-    /*-------------------*/
-
     /* ---------- main-towns-article ---------- */
 
     #display_here div {
@@ -88,42 +86,10 @@
         box-shadow: 0 0 .7px;
     }
 
-    /* ---------- main-gallery-end ---------- */
-
-    div.theparent {    
-        position: relative;
-    }
-
-    div.thechild {
-        position: absolute;
-        top: 20px;
-        left: 20px;
-        background-color: rgb(0 114 12 / 48%);
-        padding: 0 1rem;
-        color: rgba(255,255,255,0.8);
-    }
-    
-    div.thechild ul {
-        list-style-type: none;
-        padding: 0;
-    }
-
     /*-------------------*/
 
     section#weatherforecast {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-    }
-
-    /*-------------------*/
-
-    .contact-container {
-        display: grid;
-        grid-template-columns: 1fr 1fr 2fr;
-        grid-row: auto;
-    }
-
-    .phone-email-container {
-        margin-right: 1rem;
     }
 }

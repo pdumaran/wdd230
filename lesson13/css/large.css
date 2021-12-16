@@ -10,45 +10,6 @@
         box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 39%);
     }
 
-    /* ---------- main-towns-article ---------- */
-
-    #display_here {
-        display: inline-flex;
-        grid-gap: .25rem;
-    }
-
-    #display_here div {
-        grid-template-columns: 1fr;
-    }
-
-    #display_here div:nth-child(1) section {
-        grid-column: 1;
-    }
-    
-    #display_here div:nth-child(1) figure {
-        grid-column: 1;
-    }
-
-    #display_here div:nth-child(2) section {
-        grid-column: 2;
-        grid-row: 1;
-    }
-    
-    #display_here div:nth-child(2) figure {
-        grid-column: 2;
-        grid-row: 2;
-    }
-
-    #display_here div:nth-child(3) section {
-        grid-column: 3;
-        grid-row: 1;
-    }
-    
-    #display_here div:nth-child(3) figure {
-        grid-column: 3;
-        grid-row: 2;
-    }
-
     /* ---------- end-main-towns-article ---------- */
 
     section#weatherforecast {
